@@ -21,7 +21,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 | GitHub repo named for capstone | DONE | Public repository `assemalqudami-maker/football-laws-rag-capstone`. |
 | Ingestion pipeline | IN PROGRESS | Corpus audit and page-preserving chunk builder are implemented; 597 baseline chunks generated locally. Embeddings and vector store are still pending. |
 | Written chunking, embedding, vector DB justifications | IN PROGRESS | Candidate choices and Arabic-specific evaluation plan are in `architecture.md`; final justifications await measured comparisons. |
-| Hybrid retrieval with reranking | NOT STARTED | Implement and verify. |
+| Hybrid retrieval with reranking | IN PROGRESS | Added the API-free BM25 baseline `scripts/retrieve_bm25.py`; no dense retriever, fusion, or reranker yet. A four-question smoke check found the cited page in Top 5 for 2/4, which is exploratory and not the official Recall@5 metric. |
 | 30 golden questions | IN PROGRESS | Thirty draft questions exist in `data/eval/golden_questions_draft.json`. They still need answer/source verification, gold chunk IDs, and evaluation use; a draft is not a gold question. |
 | Recall@5 >= 80% | NOT STARTED | Measure; tune without changing gold labels. |
 | Streamlit or Gradio interface | NOT STARTED | Arabic RTL, Amiri font, simple auth, sources visible. |
@@ -41,6 +41,6 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 - `scripts/audit_corpus.py` generates `data/eval/corpus_audit.json`; 17/17 law-specific webpages contain FAQ markers and no exact whole-document duplicate was found. Five-token overlap is reported for review, not automatically removed.
 - Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review. Visual comparison and targeted content review are documented in `data/eval/pdf_extraction_review.md` and `data/eval/pdf_manual_review.json`; full-document QA is still incomplete.
 - The baseline chunk builder produces 597 chunks (median 325 whitespace-delimited words, max 360, overlap 55). It excludes PDF front matter pages 1–8, flags 57 chunks requiring source review after four targeted pages were visually checked, and reports PDF page 42 as empty. Generated chunk JSONL is local and ignored by Git; the script and build report are tracked.
-- No retrieval metrics, RAGAS results, user tests, deployment, or cost figures have been completed.
+- The BM25 baseline is not a completed hybrid retriever and has no formal Recall@5 result; gold chunk labels are still unset. No RAGAS results, user tests, deployment, or cost figures have been completed.
 - API provider/key allocation is not yet confirmed. `API_KEY_GUIDE.md` explains secret handling and low-cost testing; do not commit or share the actual key.
 - User confirmed that the supervisor granted an extension; the new deadline/date is not yet recorded.
