@@ -39,7 +39,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 - Source PDF: 236 pages, not encrypted, text extractable.
 - Extraction output: `data/extracted/laws_pages.jsonl`, page metadata retained.
 - `scripts/audit_corpus.py` generates `data/eval/corpus_audit.json`; 17/17 law-specific webpages contain FAQ markers and no exact whole-document duplicate was found. Five-token overlap is reported for review, not automatically removed.
-- Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review; inspect flagged pages before treating the Arabic PDF extraction as ingestion-ready.
+- Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review; a four-page extractor comparison is documented in `data/eval/pdf_extraction_review.md`; the remaining flagged pages still need review before treating all extracted text as ingestion-ready.
 - No retrieval metrics, RAGAS results, user tests, deployment, or cost figures have been completed.
 - API provider/key allocation is not yet confirmed. `API_KEY_GUIDE.md` explains secret handling and low-cost testing; do not commit or share the actual key.
 - User confirmed that the supervisor granted an extension; the new deadline/date is not yet recorded.
