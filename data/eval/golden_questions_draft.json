@@ -1,0 +1,206 @@
+{
+  "status": "draft_needs_manual_review",
+  "edition": "IFAB Laws of the Game 2026/27 Arabic",
+  "questions": [
+    {
+      "id": "DRAFT-01",
+      "question": "هل يُعدّ وجود اللاعب في موقف تسلل مخالفة بحد ذاته؟",
+      "expected_answer": "لا. مجرد التواجد في موقف تسلل لا يُعد مخالفة؛ تُعاقب الحالة عندما يشارك اللاعب في اللعب النشط الفعّال وفق شروط قانون التسلل.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [107, 108],
+      "law": "القانون 11 — التسلل",
+      "answer_status": "checked_against_rendered_page_107_and_extracted_pages_107_108",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-02",
+      "question": "متى يكون اللاعب في موقف تسلل؟",
+      "expected_answer": "يكون اللاعب في موقف تسلل إذا كان جزء من رأسه أو جسده أو قدميه في نصف ملعب المنافس، مع استثناء خط المنتصف، وكان أقرب إلى خط مرمى المنافس من الكرة ومن المنافس قبل الأخير. لا تُحتسب اليدان والذراعان في تحديد ذلك.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [107],
+      "law": "القانون 11 — التسلل",
+      "answer_status": "checked_against_rendered_page_107",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-03",
+      "question": "هل تُحتسب ركلة جزاء إذا ارتكب لاعب مخالفة تستوجب ركلة حرة مباشرة داخل منطقة جزاء فريقه؟",
+      "expected_answer": "نعم، تُحتسب ركلة جزاء إذا ارتكب اللاعب مخالفة تستوجب ركلة حرة مباشرة داخل منطقة جزاء فريقه، مع مراعاة الاستثناءات التي يذكرها القانون.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [126],
+      "law": "القانون 12 — الأخطاء وسوء السلوك",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-04",
+      "question": "كيف يجب أن ينفذ اللاعب رمية التماس؟",
+      "expected_answer": "يقف مواجهًا ميدان اللعب، ويكون جزء من كل قدم على خط التماس أو على الأرض خارجه، ويرمي الكرة بكلتا يديه من خلف الرأس وفوقه من النقطة التي خرجت منها الكرة.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [135],
+      "law": "القانون 15 — رمية التماس",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-05",
+      "question": "هل يمكن تسجيل هدف مباشرة من رمية التماس؟",
+      "expected_answer": "لا. إذا دخلت الكرة مباشرة إلى مرمى الفريق المنافس تُحتسب ركلة مرمى، وإذا دخلت مباشرة إلى مرمى الفريق الذي نفذ رمية التماس تُحتسب ركلة ركنية.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [135],
+      "law": "القانون 15 — رمية التماس",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-06",
+      "question": "متى تصبح الكرة في اللعب بعد تنفيذ رمية التماس؟",
+      "expected_answer": "تصبح الكرة في اللعب عندما تدخل ميدان اللعب. وإذا لمست الأرض قبل دخولها، تعاد رمية التماس من الفريق نفسه ومن المكان نفسه.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [135],
+      "law": "القانون 15 — رمية التماس",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-07",
+      "question": "ما المسافة التي يجب أن يبتعد بها المنافسون عن مكان تنفيذ رمية التماس؟",
+      "expected_answer": "يجب أن يقف جميع المنافسين على مسافة لا تقل عن مترين من النقطة على خط التماس التي تُنفذ منها الرمية.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [135],
+      "law": "القانون 15 — رمية التماس",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-08",
+      "question": "متى تُحتسب ركلة المرمى؟",
+      "expected_answer": "تُحتسب عندما تتجاوز الكرة بكاملها خط المرمى، على الأرض أو في الهواء، ويكون آخر من لمسها لاعب من الفريق المهاجم، من دون تسجيل هدف.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [139],
+      "law": "القانون 16 — ركلة المرمى",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-09",
+      "question": "من أي مكان تُنفذ ركلة المرمى، ومتى تصبح الكرة في اللعب؟",
+      "expected_answer": "تكون الكرة ثابتة وتُركل من أي نقطة داخل منطقة المرمى بواسطة لاعب من الفريق المدافع، وتصبح في اللعب عندما تُركل وتتحرك بوضوح.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [139],
+      "law": "القانون 16 — ركلة المرمى",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-10",
+      "question": "ما الشرط الأساسي لاحتساب الهدف؟",
+      "expected_answer": "يُحتسب الهدف عندما تتجاوز الكرة بكاملها خط المرمى بين القائمين وتحت العارضة، بشرط ألا يكون الفريق الذي سجل قد ارتكب مخالفة أو انتهاكًا لقوانين اللعبة.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [101],
+      "law": "القانون 10 — تحديد نتيجة المباراة",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-11",
+      "question": "ما الحالات التي تجعل الكرة خارج اللعب؟",
+      "expected_answer": "تكون الكرة خارج اللعب إذا تجاوزت بكاملها خط المرمى أو خط التماس، أو أوقف الحكم اللعب، أو لمست حكم المباراة وبقيت داخل الملعب في إحدى الحالات المحددة بالقانون، مثل بدء هجوم واعد أو دخولها مباشرة إلى المرمى أو انتقال الاستحواذ إلى الفريق المنافس.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [99],
+      "law": "القانون 9 — الكرة داخل وخارج اللعب",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-12",
+      "question": "هل يجوز تسجيل هدف مباشرة من ركلة بداية؟",
+      "expected_answer": "نعم، يجوز تسجيل هدف مباشرة في مرمى الفريق المنافس من ركلة البداية. وإذا دخلت الكرة مباشرة في مرمى الفريق الذي نفذ الركلة، تُحتسب ركلة ركنية للفريق المنافس.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [95, 96],
+      "law": "القانون 8 — بداية واستئناف اللعب",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-13",
+      "question": "متى تصبح الكرة في اللعب بعد ركلة البداية؟",
+      "expected_answer": "تصبح الكرة في اللعب عندما تُركل وتتحرك بوضوح.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [96],
+      "law": "القانون 8 — بداية واستئناف اللعب",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-14",
+      "question": "متى يُحتسب الهدف في كرة القدم؟",
+      "expected_answer": "يُحتسب الهدف عندما تتجاوز الكرة بكاملها خط المرمى بين القائمين وتحت العارضة، بشرط ألا تكون هناك مخالفة أو انتهاك لقوانين اللعبة من الفريق الذي سجل.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [101],
+      "law": "القانون 10 — تحديد نتيجة المباراة",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-15",
+      "question": "ما الذي يحدث إذا رمى حارس المرمى الكرة بيده مباشرة إلى مرمى الفريق المنافس؟",
+      "expected_answer": "لا يُحتسب هدف؛ تُحتسب ركلة مرمى للفريق المنافس.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [101],
+      "law": "القانون 10 — تحديد نتيجة المباراة",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-16",
+      "question": "هل يمكن للاعب تنفيذ ركلة جزاء ثم لمس الكرة مرة أخرى قبل أن يلمسها لاعب آخر؟",
+      "expected_answer": "لا. لا يجوز للراكل لعب الكرة مرة ثانية حتى تلمس لاعبًا آخر.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [130],
+      "law": "القانون 14 — ركلة الجزاء",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-17",
+      "question": "هل يجوز تسجيل هدف مباشرة من ركلة مرمى؟",
+      "expected_answer": "نعم، يجوز تسجيل هدف مباشرة من ركلة مرمى في مرمى الفريق المنافس فقط. وإذا دخلت الكرة مباشرة في مرمى الفريق المنفذ، تُحتسب ركلة ركنية للمنافس.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [139],
+      "law": "القانون 16 — ركلة المرمى",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-18",
+      "question": "ماذا يحتسب الحكم إذا دخلت الكرة مباشرة إلى مرمى الفريق الذي نفذ رمية التماس؟",
+      "expected_answer": "تُحتسب ركلة ركنية للفريق المنافس.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [135],
+      "law": "القانون 15 — رمية التماس",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-19",
+      "question": "ما المسافة التي يجب أن يبتعد بها المنافسون عن الكرة عند إسقاطها؟",
+      "expected_answer": "يجب أن يبتعد جميع اللاعبين مسافة لا تقل عن أربعة أمتار عن الكرة حتى تصبح في اللعب.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [96],
+      "law": "القانون 8 — بداية واستئناف اللعب",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-20",
+      "question": "كم لاعبًا يجب أن يكون لدى كل فريق كي تبدأ المباراة أو تستمر؟",
+      "expected_answer": "لا تبدأ المباراة ولا تستمر إذا أصبح لدى أي فريق أقل من سبعة لاعبين، مع الاستثناءات الواردة في القانون للحالات المؤقتة المرتبطة ببروتوكولات الاستبعاد المؤقت والعلاج أو التبديل المحدود زمنيًا.",
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [59, 60],
+      "law": "القانون 3 — اللاعبون",
+      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "gold_chunk_ids": []
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "retrieved_at_utc": "2026-10-02T20:20:32.693682+00:00",
+  "source_count": 33,
+  "downloaded_and_extracted": 32,
+  "already_local": 1,
+  "failed": 0,
+  "results": [
+    {
+      "source_id": "IFAB-LAW-01-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-01-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-01-2026-27.txt",
+      "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-02-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-02-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-02-2026-27.txt",
+      "sha256": "1c1093c79fa6b48e527e9daaba18c539cdea36f1d74cf52c26863a0a8c5e4d1d",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-03-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-03-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-03-2026-27.txt",
+      "sha256": "2900e52b6ccd9e05294c0e0d7d7d57e675d7a8be0da27364c891e9e590e60082",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-04-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-04-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-04-2026-27.txt",
+      "sha256": "8c152684338ad33145928a6f89d67c7256f74e81fd74260211ba7803b98b7e89",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-05-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-05-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-05-2026-27.txt",
+      "sha256": "733530e847a3621d654742aa61207e4b00c55face62ca01d5e1d32107da4e342",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-06-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-06-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-06-2026-27.txt",
+      "sha256": "9902dc47dbd8ba50c474aaf19ea8ada8eeb387b001a1f65e87366f01c26531fe",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-07-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-07-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-07-2026-27.txt",
+      "sha256": "127edc2970a257b22d23ec79ade3029e08d4e5913280a6e5f140602b07bed4cf",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-08-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-08-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-08-2026-27.txt",
+      "sha256": "422d7ec14c518f845283f384c9446dcf959a68b5e5e8c9cc712395450fe52141",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-09-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-09-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-09-2026-27.txt",
+      "sha256": "159b6e8aba20647e022326f2caa1ab075f93ace9cc1af7fa88ae553e285e866b",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-10-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-10-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-10-2026-27.txt",
+      "sha256": "84ad799f61532fe9aed3e64f3d41505ec18a673b326f2b9b2e002bf5de9a6ebf",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-11-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-11-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-11-2026-27.txt",
+      "sha256": "c66b2292d31bdc8d5cffc420af150a2186236a1703fd59b5b0e1835b19263e10",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-12-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-12-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-12-2026-27.txt",
+      "sha256": "7546db2e2f8c38c3051b469ea70383de67e12311e933a8dc1e88ec93071a48e1",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-13-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-13-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-13-2026-27.txt",
+      "sha256": "c2e6eea50820e59a2cd0f7a2190251c63144b76877d47571f88a47ec28690d95",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-14-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-14-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-14-2026-27.txt",
+      "sha256": "c2446ba25de8c0a5b8ef19c21e3c1ff6b6ec6d9f38524e2471350ecde2810f1d",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-15-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-15-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-15-2026-27.txt",
+      "sha256": "7ea2500c75c664f75749528bf3bc9666c4ed94ed8a4496ccbfb25b44c06cbfce",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-16-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-16-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-16-2026-27.txt",
+      "sha256": "cee1c11031ca1bcd4c2d70c360652995531e77b5213087622b2839361c8b1893",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-17-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-LAW-17-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-17-2026-27.txt",
+      "sha256": "5e61942bddaf1c798a624b02e2ba269591ed6cab9fd82483ec6c93e787da5562",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-VAR-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-VAR-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-VAR-2026-27.txt",
+      "sha256": "e5aa89077dccbe1338b3b338627380d900e155a151b6f1d87fad44610b14eff5",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-TIME-SUB-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-TIME-SUB-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-TIME-SUB-2026-27.txt",
+      "sha256": "c3814d9c1495c976aee30a36550c81619d231063085c8c8866a531a8d940639c",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-OFFFIELD-TREATMENT-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-OFFFIELD-TREATMENT-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-OFFFIELD-TREATMENT-2026-27.txt",
+      "sha256": "02d551341df4660863d9025df25897d081c35f1b281e12b1fdd08509f85873ca",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-THROW-GOALKICK-2026-27",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-THROW-GOALKICK-2026-27.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-THROW-GOALKICK-2026-27.txt",
+      "sha256": "d1c820bd8644a136adb2f9c6b5f1c69d7d9b946dbe677d0e5d725b0fb36b87cf",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-CAPTAIN-GUIDELINES",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-CAPTAIN-GUIDELINES.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-CAPTAIN-GUIDELINES.txt",
+      "sha256": "d2a4ec4f1c34aac1ff08195e4de76cdb9a9ee9fe143d6f9ae7282b51e3bfc8a8",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-TEMP-DISMISSALS",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-TEMP-DISMISSALS.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-TEMP-DISMISSALS.txt",
+      "sha256": "e18de69479ebc32fe45e41d5f4b2d6a6481504e3540146acf5fe31548ac0c5ed",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-RETURN-SUBS",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-RETURN-SUBS.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-RETURN-SUBS.txt",
+      "sha256": "258e675868294f815351382631bb0661a0468c1bd681169fd43aa54d18ab98a0",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-CONCUSSION-SUBS",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-CONCUSSION-SUBS.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-CONCUSSION-SUBS.txt",
+      "sha256": "2aaa0c04940d3a21e24b92b87c58b7a159be6b8ebc4cbcaba4bb8c7be8480685",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-GUIDE-INTRO",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-GUIDE-INTRO.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-GUIDE-INTRO.txt",
+      "sha256": "049d2cd3c00b7f10e5188931ea03f9cc5ddb6f99bae854acd3f52413b46de6d1",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-GUIDE-POSITIONING",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-GUIDE-POSITIONING.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-GUIDE-POSITIONING.txt",
+      "sha256": "4f0b1af408a917daa7550472f13bd76b05cd953d0cd4265ea6066de3504ebdc0",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-GUIDE-COMMS",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-GUIDE-COMMS.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-GUIDE-COMMS.txt",
+      "sha256": "8d10f14430dc0b56e6008718d8a5d1ff6c06526913fb3ec6e612b0ee4061ca3c",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-GUIDE-ADVICE",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\web\\IFAB-GUIDE-ADVICE.html",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-GUIDE-ADVICE.txt",
+      "sha256": "61ff51e307b763120334ab32c5364feb572a1717997a9b0a29ef988f58b0a22c",
+      "pdf_page_count": null
+    },
+    {
+      "source_id": "IFAB-LAW-CHANGES-2026-27-AR",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\supplementary\\IFAB-LAW-CHANGES-2026-27-AR.pdf",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-CHANGES-2026-27-AR.jsonl",
+      "sha256": "35eb74b4b7576970dc4174c8e47be2cc6f4675b95e29ccb4117889839ecd6aaf",
+      "pdf_page_count": 16
+    },
+    {
+      "source_id": "IFAB-LAW-CHANGES-2026-27-EN",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\supplementary\\IFAB-LAW-CHANGES-2026-27-EN.pdf",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-LAW-CHANGES-2026-27-EN.jsonl",
+      "sha256": "6681591924b876e8976eb33642012da56b1d52af69c9d84f29fd222b0a1f3fa4",
+      "pdf_page_count": 31
+    },
+    {
+      "source_id": "IFAB-CIRCULAR-32-2026",
+      "status": "downloaded_and_extracted",
+      "local_filename": "data\\raw\\supplementary\\IFAB-CIRCULAR-32-2026.pdf",
+      "extracted_filename": "data\\extracted\\supplementary\\IFAB-CIRCULAR-32-2026.jsonl",
+      "sha256": "debb841ec9dc9188e2c92ea3110ecba8c52240abbf940bd5f92d2f1bb68c69db",
+      "pdf_page_count": 4
+    },
+    {
+      "source_id": "IFAB-LOTG-2026-27-AR",
+      "status": "already_local",
+      "local_filename": "data/raw/ifab_laws_2026_27_ar.pdf"
+    }
+  ]
+}

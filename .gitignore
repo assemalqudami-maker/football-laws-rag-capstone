@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Locally downloaded source snapshots (reproducible via scripts/collect_sources.py)
+data/raw/
+!data/raw/.gitkeep
+
+# Generated vector indexes and local app state
+chroma_db/
+vectorstore/
+*.sqlite3

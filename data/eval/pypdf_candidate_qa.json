@@ -1,0 +1,348 @@
+{
+  "source": "football_rag/data/raw/ifab_laws_2026_27_ar.pdf",
+  "extractor": "pypdf candidate; comparison only",
+  "page_count": 236,
+  "total_characters": 203582,
+  "median_characters_per_page": 968.0,
+  "replacement_character_total": 0,
+  "pages_under_100_chars": 56,
+  "pages_flagged": [
+    {
+      "pdf_page": 1,
+      "chars": 25,
+      "arabic_chars": 12,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 2,
+      "chars": 1,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 3,
+      "chars": 1,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 5,
+      "chars": 26,
+      "arabic_chars": 12,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 8,
+      "chars": 1,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 9,
+      "chars": 18,
+      "arabic_chars": 14,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 10,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 13,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 15,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 16,
+      "chars": 21,
+      "arabic_chars": 19,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 19,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 37,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 41,
+      "chars": 18,
+      "arabic_chars": 4,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 42,
+      "chars": 0,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 43,
+      "chars": 27,
+      "arabic_chars": 12,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 44,
+      "chars": 13,
+      "arabic_chars": 12,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 54,
+      "chars": 12,
+      "arabic_chars": 11,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 57,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 58,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 66,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 72,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 82,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 89,
+      "chars": 59,
+      "arabic_chars": 40,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 90,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 93,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 94,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 97,
+      "chars": 2,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 98,
+      "chars": 14,
+      "arabic_chars": 13,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 100,
+      "chars": 12,
+      "arabic_chars": 11,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 102,
+      "chars": 50,
+      "arabic_chars": 34,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 105,
+      "chars": 74,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 106,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 110,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 124,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 128,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 134,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 137,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 138,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 141,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 142,
+      "chars": 14,
+      "arabic_chars": 10,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 145,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 146,
+      "chars": 31,
+      "arabic_chars": 27,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 155,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 156,
+      "chars": 40,
+      "arabic_chars": 34,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 159,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 160,
+      "chars": 26,
+      "arabic_chars": 15,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 181,
+      "chars": 19,
+      "arabic_chars": 4,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 188,
+      "chars": 15,
+      "arabic_chars": 14,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 200,
+      "chars": 20,
+      "arabic_chars": 18,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 215,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 231,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 232,
+      "chars": 11,
+      "arabic_chars": 7,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 233,
+      "chars": 19,
+      "arabic_chars": 4,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 234,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 235,
+      "chars": 3,
+      "arabic_chars": 0,
+      "replacement_character_count": 0
+    },
+    {
+      "pdf_page": 236,
+      "chars": 27,
+      "arabic_chars": 12,
+      "replacement_character_count": 0
+    }
+  ],
+  "warning": "This is an alternative extraction candidate, not a verified correction. Compare wording with the rendered official PDF before indexing; it does not perform OCR."
+}
