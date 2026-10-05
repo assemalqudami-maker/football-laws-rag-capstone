@@ -1,5 +1,5 @@
 {
-  "status": "draft_needs_manual_review",
+  "status": "30-question draft set; not gold until source answers and chunk IDs are verified",
   "edition": "IFAB Laws of the Game 2026/27 Arabic",
   "questions": [
     {
@@ -7,7 +7,10 @@
       "question": "هل يُعدّ وجود اللاعب في موقف تسلل مخالفة بحد ذاته؟",
       "expected_answer": "لا. مجرد التواجد في موقف تسلل لا يُعد مخالفة؛ تُعاقب الحالة عندما يشارك اللاعب في اللعب النشط الفعّال وفق شروط قانون التسلل.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [107, 108],
+      "gold_pdf_pages": [
+        107,
+        108
+      ],
       "law": "القانون 11 — التسلل",
       "answer_status": "checked_against_rendered_page_107_and_extracted_pages_107_108",
       "gold_chunk_ids": []
@@ -17,7 +20,9 @@
       "question": "متى يكون اللاعب في موقف تسلل؟",
       "expected_answer": "يكون اللاعب في موقف تسلل إذا كان جزء من رأسه أو جسده أو قدميه في نصف ملعب المنافس، مع استثناء خط المنتصف، وكان أقرب إلى خط مرمى المنافس من الكرة ومن المنافس قبل الأخير. لا تُحتسب اليدان والذراعان في تحديد ذلك.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [107],
+      "gold_pdf_pages": [
+        107
+      ],
       "law": "القانون 11 — التسلل",
       "answer_status": "checked_against_rendered_page_107",
       "gold_chunk_ids": []
@@ -27,7 +32,9 @@
       "question": "هل تُحتسب ركلة جزاء إذا ارتكب لاعب مخالفة تستوجب ركلة حرة مباشرة داخل منطقة جزاء فريقه؟",
       "expected_answer": "نعم، تُحتسب ركلة جزاء إذا ارتكب اللاعب مخالفة تستوجب ركلة حرة مباشرة داخل منطقة جزاء فريقه، مع مراعاة الاستثناءات التي يذكرها القانون.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [126],
+      "gold_pdf_pages": [
+        126
+      ],
       "law": "القانون 12 — الأخطاء وسوء السلوك",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -37,7 +44,9 @@
       "question": "كيف يجب أن ينفذ اللاعب رمية التماس؟",
       "expected_answer": "يقف مواجهًا ميدان اللعب، ويكون جزء من كل قدم على خط التماس أو على الأرض خارجه، ويرمي الكرة بكلتا يديه من خلف الرأس وفوقه من النقطة التي خرجت منها الكرة.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [135],
+      "gold_pdf_pages": [
+        135
+      ],
       "law": "القانون 15 — رمية التماس",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -47,7 +56,9 @@
       "question": "هل يمكن تسجيل هدف مباشرة من رمية التماس؟",
       "expected_answer": "لا. إذا دخلت الكرة مباشرة إلى مرمى الفريق المنافس تُحتسب ركلة مرمى، وإذا دخلت مباشرة إلى مرمى الفريق الذي نفذ رمية التماس تُحتسب ركلة ركنية.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [135],
+      "gold_pdf_pages": [
+        135
+      ],
       "law": "القانون 15 — رمية التماس",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -57,7 +68,9 @@
       "question": "متى تصبح الكرة في اللعب بعد تنفيذ رمية التماس؟",
       "expected_answer": "تصبح الكرة في اللعب عندما تدخل ميدان اللعب. وإذا لمست الأرض قبل دخولها، تعاد رمية التماس من الفريق نفسه ومن المكان نفسه.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [135],
+      "gold_pdf_pages": [
+        135
+      ],
       "law": "القانون 15 — رمية التماس",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -67,7 +80,9 @@
       "question": "ما المسافة التي يجب أن يبتعد بها المنافسون عن مكان تنفيذ رمية التماس؟",
       "expected_answer": "يجب أن يقف جميع المنافسين على مسافة لا تقل عن مترين من النقطة على خط التماس التي تُنفذ منها الرمية.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [135],
+      "gold_pdf_pages": [
+        135
+      ],
       "law": "القانون 15 — رمية التماس",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -77,7 +92,9 @@
       "question": "متى تُحتسب ركلة المرمى؟",
       "expected_answer": "تُحتسب عندما تتجاوز الكرة بكاملها خط المرمى، على الأرض أو في الهواء، ويكون آخر من لمسها لاعب من الفريق المهاجم، من دون تسجيل هدف.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [139],
+      "gold_pdf_pages": [
+        139
+      ],
       "law": "القانون 16 — ركلة المرمى",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -87,7 +104,9 @@
       "question": "من أي مكان تُنفذ ركلة المرمى، ومتى تصبح الكرة في اللعب؟",
       "expected_answer": "تكون الكرة ثابتة وتُركل من أي نقطة داخل منطقة المرمى بواسطة لاعب من الفريق المدافع، وتصبح في اللعب عندما تُركل وتتحرك بوضوح.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [139],
+      "gold_pdf_pages": [
+        139
+      ],
       "law": "القانون 16 — ركلة المرمى",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -97,9 +116,11 @@
       "question": "ما الشرط الأساسي لاحتساب الهدف؟",
       "expected_answer": "يُحتسب الهدف عندما تتجاوز الكرة بكاملها خط المرمى بين القائمين وتحت العارضة، بشرط ألا يكون الفريق الذي سجل قد ارتكب مخالفة أو انتهاكًا لقوانين اللعبة.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [101],
+      "gold_pdf_pages": [
+        101
+      ],
       "law": "القانون 10 — تحديد نتيجة المباراة",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "answer_status": "checked_against_rendered_page_101_and_extracted_page_101",
       "gold_chunk_ids": []
     },
     {
@@ -107,7 +128,9 @@
       "question": "ما الحالات التي تجعل الكرة خارج اللعب؟",
       "expected_answer": "تكون الكرة خارج اللعب إذا تجاوزت بكاملها خط المرمى أو خط التماس، أو أوقف الحكم اللعب، أو لمست حكم المباراة وبقيت داخل الملعب في إحدى الحالات المحددة بالقانون، مثل بدء هجوم واعد أو دخولها مباشرة إلى المرمى أو انتقال الاستحواذ إلى الفريق المنافس.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [99],
+      "gold_pdf_pages": [
+        99
+      ],
       "law": "القانون 9 — الكرة داخل وخارج اللعب",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -117,7 +140,10 @@
       "question": "هل يجوز تسجيل هدف مباشرة من ركلة بداية؟",
       "expected_answer": "نعم، يجوز تسجيل هدف مباشرة في مرمى الفريق المنافس من ركلة البداية. وإذا دخلت الكرة مباشرة في مرمى الفريق الذي نفذ الركلة، تُحتسب ركلة ركنية للفريق المنافس.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [95, 96],
+      "gold_pdf_pages": [
+        95,
+        96
+      ],
       "law": "القانون 8 — بداية واستئناف اللعب",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -127,29 +153,34 @@
       "question": "متى تصبح الكرة في اللعب بعد ركلة البداية؟",
       "expected_answer": "تصبح الكرة في اللعب عندما تُركل وتتحرك بوضوح.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [96],
+      "gold_pdf_pages": [
+        96
+      ],
       "law": "القانون 8 — بداية واستئناف اللعب",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
     },
     {
       "id": "DRAFT-14",
-      "question": "متى يُحتسب الهدف في كرة القدم؟",
-      "expected_answer": "يُحتسب الهدف عندما تتجاوز الكرة بكاملها خط المرمى بين القائمين وتحت العارضة، بشرط ألا تكون هناك مخالفة أو انتهاك لقوانين اللعبة من الفريق الذي سجل.",
-      "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [101],
-      "law": "القانون 10 — تحديد نتيجة المباراة",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "question": "هل يُعاقب اللاعب لمجرد استلامه الكرة مباشرة من ركلة مرمى وهو في موقف تسلل؟",
+      "expected_answer": "لا. لا توجد مخالفة تسلل عندما يتلقى اللاعب الكرة مباشرة من ركلة مرمى.",
+      "gold_source_id": "IFAB-LAW-11-2026-27",
+      "gold_pdf_pages": [],
+      "law": "القانون 11 — التسلل",
+      "answer_status": "draft_from_official_law_page_verify_exact_section",
+      "gold_chunk_ids": [],
+      "gold_section": "Offside offence — exceptions"
     },
     {
       "id": "DRAFT-15",
       "question": "ما الذي يحدث إذا رمى حارس المرمى الكرة بيده مباشرة إلى مرمى الفريق المنافس؟",
       "expected_answer": "لا يُحتسب هدف؛ تُحتسب ركلة مرمى للفريق المنافس.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [101],
+      "gold_pdf_pages": [
+        101
+      ],
       "law": "القانون 10 — تحديد نتيجة المباراة",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "answer_status": "checked_against_rendered_page_101_and_extracted_page_101",
       "gold_chunk_ids": []
     },
     {
@@ -157,7 +188,9 @@
       "question": "هل يمكن للاعب تنفيذ ركلة جزاء ثم لمس الكرة مرة أخرى قبل أن يلمسها لاعب آخر؟",
       "expected_answer": "لا. لا يجوز للراكل لعب الكرة مرة ثانية حتى تلمس لاعبًا آخر.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [130],
+      "gold_pdf_pages": [
+        130
+      ],
       "law": "القانون 14 — ركلة الجزاء",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -167,27 +200,34 @@
       "question": "هل يجوز تسجيل هدف مباشرة من ركلة مرمى؟",
       "expected_answer": "نعم، يجوز تسجيل هدف مباشرة من ركلة مرمى في مرمى الفريق المنافس فقط. وإذا دخلت الكرة مباشرة في مرمى الفريق المنفذ، تُحتسب ركلة ركنية للمنافس.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [139],
+      "gold_pdf_pages": [
+        139
+      ],
       "law": "القانون 16 — ركلة المرمى",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
     },
     {
       "id": "DRAFT-18",
-      "question": "ماذا يحتسب الحكم إذا دخلت الكرة مباشرة إلى مرمى الفريق الذي نفذ رمية التماس؟",
-      "expected_answer": "تُحتسب ركلة ركنية للفريق المنافس.",
+      "question": "ما الحد الأقصى لمدة الاستراحة بين شوطي المباراة؟",
+      "expected_answer": "يجب ألا تتجاوز الاستراحة بين الشوطين 15 دقيقة، وتحدد لوائح المسابقة مدتها.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [135],
-      "law": "القانون 15 — رمية التماس",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "gold_pdf_pages": [
+        91
+      ],
+      "law": "القانون 7 — مدة المباراة",
+      "answer_status": "checked_against_rendered_page_91_and_extracted_page_91",
+      "gold_chunk_ids": [],
+      "gold_section": "مدة المباراة — استراحة ما بين الشوطين"
     },
     {
       "id": "DRAFT-19",
       "question": "ما المسافة التي يجب أن يبتعد بها المنافسون عن الكرة عند إسقاطها؟",
       "expected_answer": "يجب أن يبتعد جميع اللاعبين مسافة لا تقل عن أربعة أمتار عن الكرة حتى تصبح في اللعب.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [96],
+      "gold_pdf_pages": [
+        96
+      ],
       "law": "القانون 8 — بداية واستئناف اللعب",
       "answer_status": "draft_from_extract_verify_page_visual_before_gold",
       "gold_chunk_ids": []
@@ -195,11 +235,124 @@
     {
       "id": "DRAFT-20",
       "question": "كم لاعبًا يجب أن يكون لدى كل فريق كي تبدأ المباراة أو تستمر؟",
-      "expected_answer": "لا تبدأ المباراة ولا تستمر إذا أصبح لدى أي فريق أقل من سبعة لاعبين، مع الاستثناءات الواردة في القانون للحالات المؤقتة المرتبطة ببروتوكولات الاستبعاد المؤقت والعلاج أو التبديل المحدود زمنيًا.",
+      "expected_answer": "لا تبدأ المباراة ولا تستمر إذا كان لدى أي فريق أقل من سبعة لاعبين. وإذا انخفض العدد لأن لاعبًا أو أكثر غادروا الملعب عمدًا، فليس الحكم ملزمًا بإيقاف اللعب ويمكنه تطبيق مبدأ إتاحة الفرصة؛ لكن إذا خرجت الكرة من اللعب فلا يجوز استئناف المباراة قبل توفر سبعة لاعبين على الأقل.",
       "gold_source_id": "IFAB-LOTG-2026-27-AR",
-      "gold_pdf_pages": [59, 60],
+      "gold_pdf_pages": [
+        59,
+        60
+      ],
       "law": "القانون 3 — اللاعبون",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
+      "answer_status": "checked_against_rendered_pages_59_60_and_extracted_pages_59_60",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-21",
+      "question": "كم من الوقت يُمنح للاعب المستبدَل لمغادرة ميدان اللعب بعد إشارة التبديل؟",
+      "expected_answer": "يجب أن يغادر خلال عشر ثوانٍ، من أقرب نقطة على خط الحدود ما لم يوجّهه الحكم إلى غير ذلك.",
+      "gold_source_id": "IFAB-TIME-SUB-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Procedure — player being substituted",
+      "law": "بروتوكول التبديل المحدود زمنيًا",
+      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-22",
+      "question": "إذا لم يغادر اللاعب المستبدَل خلال عشر ثوانٍ، فمتى يُسمح للبديل بدخول الملعب؟",
+      "expected_answer": "يواصل اللاعب المستبدَل مغادرة الملعب، ولا يدخل البديل إلا عند أول توقف بعد مرور دقيقة واحدة.",
+      "gold_source_id": "IFAB-TIME-SUB-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Procedure — late exit",
+      "law": "بروتوكول التبديل المحدود زمنيًا",
+      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-23",
+      "question": "متى يجب على لاعب الميدان الذي خضع لتقييم أو علاج داخل الملعب أن يغادر الملعب، وكم يبقى خارجه؟",
+      "expected_answer": "يغادر الملعب ويبقى خارجه دقيقة واحدة بعد استئناف اللعب، مع تطبيق الاستثناءات المحددة في البروتوكول.",
+      "gold_source_id": "IFAB-OFFFIELD-TREATMENT-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Requirement to leave the field of play for one minute",
+      "law": "بروتوكول العلاج والتقييم خارج ميدان اللعب",
+      "answer_status": "draft_from_official_ifab_protocol_verify_exceptions",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-24",
+      "question": "إذا انتهى العد التنازلي لرمية التماس ولم تصبح الكرة في اللعب، فلمن تُمنح الرمية؟",
+      "expected_answer": "تُمنح رمية التماس للفريق المنافس، وينفذها من موضع رمية التماس الأصلية.",
+      "gold_source_id": "IFAB-THROW-GOALKICK-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Five-second countdown — throw-in",
+      "law": "بروتوكول العد التنازلي لرمية التماس وركلة المرمى",
+      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-25",
+      "question": "إذا انتهى العد التنازلي لركلة المرمى ولم تصبح الكرة في اللعب، فما الاستئناف؟",
+      "expected_answer": "تُمنح ركلة ركنية للفريق المنافس من جهة الملعب الأقرب إلى موضع تنفيذ ركلة المرمى.",
+      "gold_source_id": "IFAB-THROW-GOALKICK-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Five-second countdown — goal kick",
+      "law": "بروتوكول العد التنازلي لرمية التماس وركلة المرمى",
+      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-26",
+      "question": "ما أنواع الحالات الأساسية التي يمكن لحكم الفيديو المساعد مراجعتها؟",
+      "expected_answer": "الهدف أو عدم احتسابه، وركلة الجزاء أو عدم احتسابها، والبطاقة الحمراء المباشرة (مع الاستثناءات الواردة في البروتوكول)، وحالة الخطأ في تحديد الهوية.",
+      "gold_source_id": "IFAB-VAR-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Reviewable decisions/incidents",
+      "law": "بروتوكول حكم الفيديو المساعد",
+      "answer_status": "draft_from_official_ifab_protocol_verify_all_categories",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-27",
+      "question": "ما معيار تدخل حكم الفيديو المساعد في القرار؟",
+      "expected_answer": "يجوز له مساعدة الحكم عند وجود خطأ واضح وجلي أو حادثة خطيرة فائتة، وضمن الحالات القابلة للمراجعة في البروتوكول.",
+      "gold_source_id": "IFAB-VAR-2026-27",
+      "gold_pdf_pages": [],
+      "gold_section": "Principles",
+      "law": "بروتوكول حكم الفيديو المساعد",
+      "answer_status": "draft_from_official_ifab_protocol_verify_exact_wording",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-28",
+      "question": "هل أصبحت إرشادات «قائد الفريق فقط» إلزامية في جميع المسابقات خلال موسم 2026/27؟",
+      "expected_answer": "لا. تنص الإرشادات على أنها تصبح بروتوكولًا إلزاميًا للمسابقات التي تبدأ في 1 يوليو 2027 أو بعده؛ لذلك لا ينبغي وصفها بأنها إلزامية لجميع مسابقات 2026/27.",
+      "gold_source_id": "IFAB-CAPTAIN-GUIDELINES",
+      "gold_pdf_pages": [],
+      "gold_section": "Introduction — implementation date",
+      "law": "إرشادات «قائد الفريق فقط»",
+      "answer_status": "draft_from_official_ifab_guideline_verify_date_and_scope",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-29",
+      "question": "ما الحد الأقصى للتبديلات الإضافية الدائمة بسبب الارتجاج المسموح به لكل فريق؟",
+      "expected_answer": "يُسمح لكل فريق باستخدام بديل واحد كحد أقصى بسبب الارتجاج في المباراة، وفق البروتوكول.",
+      "gold_source_id": "IFAB-CONCUSSION-SUBS",
+      "gold_pdf_pages": [],
+      "gold_section": "Principles",
+      "law": "بروتوكول التبديلات الإضافية الدائمة المتعلقة بارتجاج الدماغ",
+      "answer_status": "draft_from_official_ifab_protocol_verify_limits",
+      "gold_chunk_ids": []
+    },
+    {
+      "id": "DRAFT-30",
+      "question": "إذا استخدم فريق تبديلًا بسبب الارتجاج، فما الخيار الإضافي الذي يُمنح للفريق المنافس؟",
+      "expected_answer": "يُبلّغ الفريق المنافس بأن له خيار إجراء تبديل إضافي وفرصة تبديل إضافية، ويمكنه استخدامها بالتزامن أو لاحقًا وفق البروتوكول.",
+      "gold_source_id": "IFAB-CONCUSSION-SUBS",
+      "gold_pdf_pages": [],
+      "gold_section": "Procedure — opposing team option",
+      "law": "بروتوكول التبديلات الإضافية الدائمة المتعلقة بارتجاج الدماغ",
+      "answer_status": "draft_from_official_ifab_protocol_verify_procedure",
       "gold_chunk_ids": []
     }
   ]

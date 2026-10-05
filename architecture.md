@@ -48,7 +48,7 @@ The generator must abstain when evidence is insufficient. Show the source title,
 
 ## Decisions still open
 
-- Chunking baseline implemented: `scripts/build_chunks.py` preserves PDF page boundaries, groups extracted lines/paragraphs up to 360 whitespace-delimited words, and overlaps 55 words across chunk boundaries within the same page or source document. It produces 597 chunks (median 325 words) and flags 61 chunks whose pages need review. Compare this baseline with section-boundary and fixed-token variants using the gold questions before finalizing; whitespace words are only an approximation of the selected model tokenizer.
+- Chunking baseline implemented: `scripts/build_chunks.py` preserves PDF page boundaries, groups extracted lines/paragraphs up to 360 whitespace-delimited words, and overlaps 55 words across chunk boundaries within the same page or source document. It produces 597 chunks (median 325 words) and flags 57 chunks whose pages still need source review after four pages received targeted visual review. Compare this baseline with section-boundary and fixed-token variants using the evaluation questions before finalizing; whitespace words are only an approximation of the selected model tokenizer.
 - Embeddings: benchmark multilingual models with Arabic questions against Arabic and English official passages.
 - Vector database: compare Chroma with the simplest deployment-compatible alternative after measuring corpus size and host persistence.
 - Reranker/LLM: select after checking current pricing, API availability, Arabic quality, and deployment constraints.

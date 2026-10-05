@@ -8,7 +8,14 @@
   "source_count": 33,
   "input_page_or_document_units": 316,
   "pages_marked_for_review": 113,
-  "flagged_pages_remaining_after_front_matter_exclusion": 107,
+  "manually_reviewed_pages": [
+    59,
+    60,
+    91,
+    101
+  ],
+  "flagged_pages_reviewed_manually": 4,
+  "flagged_pages_remaining_after_front_matter_exclusion": 103,
   "excluded_front_matter_pages": [
     1,
     2,
@@ -28,7 +35,7 @@
   "chunks_before_exact_deduplication": 597,
   "chunks_after_exact_deduplication": 597,
   "duplicate_occurrences_merged": 0,
-  "chunks_marked_review_required": 61,
+  "chunks_marked_review_required": 57,
   "chunk_word_count": {
     "min": 11,
     "median": 325,
@@ -73,7 +80,7 @@
   "output": "data/processed/chunks.jsonl",
   "warnings": [
     "Word counts approximate tokenizer tokens; compare chunk sizes with the selected embedding model.",
-    "Pages flagged by extraction QA remain marked review_required; chunking does not certify text accuracy.",
+    "Manual review is scoped to the targeted content recorded in pdf_manual_review.json; it does not certify every character or claim on a page.",
     "Exact deduplication merges identical text while retaining all source references."
   ]
 }

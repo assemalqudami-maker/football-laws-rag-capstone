@@ -16,7 +16,7 @@ At ingestion time, retain the original source ID, language, season, and page/sec
 
 ## Arabic PDF extraction limits
 
-The 236-page Arabic lawbook has extractable text on all 236 pages (215,895 characters; median 1,033 characters per page). The extraction QA marks **113 pages for visual review** because they are covers, diagrams, short pages, or otherwise need inspection. A four-page visual comparison is documented in `pdf_extraction_review.md`: it supports keeping PyMuPDF as the primary extractor, but it is only a sample. Visual review is not yet complete, so the text is not certified as fully accurate.
+The 236-page Arabic lawbook has extractable text on all 236 pages (215,895 characters; median 1,033 characters per page). The extraction QA marks **113 pages for visual review** because they are covers, diagrams, short pages, or otherwise need inspection. A visual comparison and targeted content review of seven pages are documented in `pdf_extraction_review.md` and `pdf_manual_review.json`. Four flagged pages (59, 60, 91, and 101) have targeted review for cited question content; review of the full document is still incomplete, so the text is not certified as fully accurate.
 
 ## Count interpretation for the assignment
 

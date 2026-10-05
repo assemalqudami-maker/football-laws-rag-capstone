@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "processed" / "chunks.jsonl"
 DEFAULT_REPORT = ROOT / "data" / "eval" / "chunk_build_report.json"
+DEFAULT_MANUAL_REVIEW = ROOT / "data" / "eval" / "pdf_manual_review.json"
 REVIEW_STATUSES = {
     "text_needs_visual_check",
     "visual_or_cover",
@@ -139,6 +140,12 @@ def main() -> None:
     extraction_qa = json.loads(
         (ROOT / "data" / "eval" / "extraction_qa.json").read_text(encoding="utf-8")
     )
+    manual_review = json.loads(DEFAULT_MANUAL_REVIEW.read_text(encoding="utf-8"))
+    manually_reviewed_pages = {
+        item["pdf_page"]
+        for item in manual_review.get("reviews", [])
+        if item.get("status") == "reviewed_for_targeted_content"
+    }
     qa_flagged_pages = {
         page["pdf_page"] for page in extraction_qa.get("pages_flagged_for_review", [])
     }
@@ -160,8 +167,13 @@ def main() -> None:
                 excluded_front_matter_pages.append(page_no)
                 continue
             quality_status = page.get("quality_status")
-            needs_review = quality_status in REVIEW_STATUSES or (
+            pdf_page_flagged = (
                 row["id"] == "IFAB-LOTG-2026-27-AR" and page_no in qa_flagged_pages
+            )
+            has_extraction_flag = quality_status in REVIEW_STATUSES or pdf_page_flagged
+            needs_review = has_extraction_flag and not (
+                row["id"] == "IFAB-LOTG-2026-27-AR"
+                and page_no in manually_reviewed_pages
             )
             if needs_review:
                 flagged_pages_seen_after_front_matter_filter.add(page_no)
@@ -186,6 +198,11 @@ def main() -> None:
                     "pdf_page": page_no,
                     "format": row["format"],
                     "quality_status": quality_status,
+                    "extraction_review_status": (
+                        "reviewed_for_targeted_content"
+                        if pdf_page_flagged and page_no in manually_reviewed_pages
+                        else "review_required" if needs_review else "not_flagged"
+                    ),
                 }
                 if digest in unique:
                     item = unique[digest]
@@ -235,6 +252,8 @@ def main() -> None:
         "source_count": len(manifest),
         "input_page_or_document_units": input_page_count,
         "pages_marked_for_review": len(qa_flagged_pages),
+        "manually_reviewed_pages": sorted(manually_reviewed_pages),
+        "flagged_pages_reviewed_manually": len(manually_reviewed_pages & qa_flagged_pages),
         "flagged_pages_remaining_after_front_matter_exclusion": len(flagged_pages_seen_after_front_matter_filter),
         "excluded_front_matter_pages": sorted(excluded_front_matter_pages),
         "empty_text_units": missing_text_pages,
@@ -254,7 +273,7 @@ def main() -> None:
         else str(args.out),
         "warnings": [
             "Word counts approximate tokenizer tokens; compare chunk sizes with the selected embedding model.",
-            "Pages flagged by extraction QA remain marked review_required; chunking does not certify text accuracy.",
+            "Manual review is scoped to the targeted content recorded in pdf_manual_review.json; it does not certify every character or claim on a page.",
             "Exact deduplication merges identical text while retaining all source references.",
         ],
     }
