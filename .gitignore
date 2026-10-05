@@ -9,6 +9,7 @@ venv/
 
 # Locally downloaded source snapshots (reproducible via scripts/collect_sources.py)
 data/raw/
+data/processed/
 !data/raw/.gitkeep
 
 # Generated vector indexes and local app state

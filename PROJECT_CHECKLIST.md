@@ -19,7 +19,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 | Choose domain and define scope | DONE | `domain.md` |
 | 20–50 high-quality documents | IN PROGRESS | The manifest has 33 extracted source records (29 HTML, 4 PDF), zero failures, and 32 document identities after merging the Arabic/English law-changes translation pair. The 17 distinct law-topic URLs each contain an FAQ marker. See `data/eval/corpus_audit.md` for the counting rule and overlap results; visual review of flagged Arabic lawbook pages remains incomplete. |
 | GitHub repo named for capstone | DONE | Public repository `assemalqudami-maker/football-laws-rag-capstone`. |
-| Ingestion pipeline | IN PROGRESS | First PDF extraction exists; Arabic layout needs QA. |
+| Ingestion pipeline | IN PROGRESS | Corpus audit and page-preserving chunk builder are implemented; 597 baseline chunks generated locally. Embeddings and vector store are still pending. |
 | Written chunking, embedding, vector DB justifications | IN PROGRESS | Candidate choices and Arabic-specific evaluation plan are in `architecture.md`; final justifications await measured comparisons. |
 | Hybrid retrieval with reranking | NOT STARTED | Implement and verify. |
 | 30 golden questions | IN PROGRESS | Twenty draft questions exist in `data/eval/golden_questions_draft.json`; they need visual source checks and gold chunk IDs after chunking. Add ten more after final corpus is validated. |
@@ -40,6 +40,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 - Extraction output: `data/extracted/laws_pages.jsonl`, page metadata retained.
 - `scripts/audit_corpus.py` generates `data/eval/corpus_audit.json`; 17/17 law-specific webpages contain FAQ markers and no exact whole-document duplicate was found. Five-token overlap is reported for review, not automatically removed.
 - Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review; a four-page extractor comparison is documented in `data/eval/pdf_extraction_review.md`; the remaining flagged pages still need review before treating all extracted text as ingestion-ready.
+- The baseline chunk builder produces 597 chunks (median 325 whitespace-delimited words, max 360, overlap 55). It excludes PDF front matter pages 1–8, flags 61 chunks requiring source review, and reports PDF page 42 as empty. Generated chunk JSONL is local and ignored by Git; the script and build report are tracked.
 - No retrieval metrics, RAGAS results, user tests, deployment, or cost figures have been completed.
 - API provider/key allocation is not yet confirmed. `API_KEY_GUIDE.md` explains secret handling and low-cost testing; do not commit or share the actual key.
 - User confirmed that the supervisor granted an extension; the new deadline/date is not yet recorded.

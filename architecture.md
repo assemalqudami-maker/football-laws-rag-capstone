@@ -2,7 +2,7 @@
 
 ## Architecture status
 
-This is a proposed architecture, not an implemented or measured system yet. Final choices are subject to retrieval tests and the capstone requirements.
+The corpus audit and baseline chunk builder are implemented. Embeddings, vector storage, reranking, and answer generation remain proposed and unmeasured; final choices depend on Arabic retrieval tests and the assigned API budget.
 
 ## Current corpus and language constraints
 
@@ -17,7 +17,7 @@ PDF/web extraction with original page and source metadata
         ↓
 Arabic text normalization (preserve legal wording)
         ↓
-Law/section-aware chunking with limited token overlap
+Page/paragraph-aware word-window chunking; preserve citations
         ↓
 Multilingual embedding model + lexical BM25 index
         ↓
@@ -48,7 +48,7 @@ The generator must abstain when evidence is insufficient. Show the source title,
 
 ## Decisions still open
 
-- Chunking: compare law/section-aware chunks against fixed token windows; do not split numbered clauses if avoidable.
+- Chunking baseline implemented: `scripts/build_chunks.py` preserves PDF page boundaries, groups extracted lines/paragraphs up to 360 whitespace-delimited words, and overlaps 55 words across chunk boundaries within the same page or source document. It produces 597 chunks (median 325 words) and flags 61 chunks whose pages need review. Compare this baseline with section-boundary and fixed-token variants using the gold questions before finalizing; whitespace words are only an approximation of the selected model tokenizer.
 - Embeddings: benchmark multilingual models with Arabic questions against Arabic and English official passages.
 - Vector database: compare Chroma with the simplest deployment-compatible alternative after measuring corpus size and host persistence.
 - Reranker/LLM: select after checking current pricing, API availability, Arabic quality, and deployment constraints.

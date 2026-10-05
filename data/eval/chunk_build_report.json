@@ -1,0 +1,79 @@
+{
+  "chunking_strategy": {
+    "name": "page-preserving, paragraph-aware word-window baseline",
+    "max_words": 360,
+    "overlap_words": 55,
+    "rationale": "Keep PDF page boundaries and source metadata for exact citations; accumulate extracted paragraphs/lines up to a bounded word window; use modest overlap only when a page or source document continues across the chunk boundary. This is a baseline to compare using retrieval questions before finalizing."
+  },
+  "source_count": 33,
+  "input_page_or_document_units": 316,
+  "pages_marked_for_review": 113,
+  "flagged_pages_remaining_after_front_matter_exclusion": 107,
+  "excluded_front_matter_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "empty_text_units": [
+    {
+      "source_id": "IFAB-LOTG-2026-27-AR",
+      "pdf_page": 42
+    }
+  ],
+  "chunks_before_exact_deduplication": 597,
+  "chunks_after_exact_deduplication": 597,
+  "duplicate_occurrences_merged": 0,
+  "chunks_marked_review_required": 61,
+  "chunk_word_count": {
+    "min": 11,
+    "median": 325,
+    "max": 360,
+    "mean": 277.72
+  },
+  "per_source_chunk_counts": {
+    "IFAB-LAW-01-2026-27": 8,
+    "IFAB-LAW-02-2026-27": 2,
+    "IFAB-LAW-03-2026-27": 21,
+    "IFAB-LAW-04-2026-27": 8,
+    "IFAB-LAW-05-2026-27": 31,
+    "IFAB-LAW-06-2026-27": 6,
+    "IFAB-LAW-07-2026-27": 3,
+    "IFAB-LAW-08-2026-27": 17,
+    "IFAB-LAW-09-2026-27": 8,
+    "IFAB-LAW-10-2026-27": 11,
+    "IFAB-LAW-11-2026-27": 27,
+    "IFAB-LAW-12-2026-27": 106,
+    "IFAB-LAW-13-2026-27": 14,
+    "IFAB-LAW-14-2026-27": 25,
+    "IFAB-LAW-15-2026-27": 10,
+    "IFAB-LAW-16-2026-27": 8,
+    "IFAB-LAW-17-2026-27": 5,
+    "IFAB-VAR-2026-27": 12,
+    "IFAB-TIME-SUB-2026-27": 2,
+    "IFAB-OFFFIELD-TREATMENT-2026-27": 2,
+    "IFAB-THROW-GOALKICK-2026-27": 1,
+    "IFAB-CAPTAIN-GUIDELINES": 3,
+    "IFAB-TEMP-DISMISSALS": 4,
+    "IFAB-RETURN-SUBS": 1,
+    "IFAB-CONCUSSION-SUBS": 3,
+    "IFAB-GUIDE-INTRO": 1,
+    "IFAB-GUIDE-POSITIONING": 5,
+    "IFAB-GUIDE-COMMS": 6,
+    "IFAB-GUIDE-ADVICE": 5,
+    "IFAB-LAW-CHANGES-2026-27-AR": 24,
+    "IFAB-LAW-CHANGES-2026-27-EN": 28,
+    "IFAB-CIRCULAR-32-2026": 6,
+    "IFAB-LOTG-2026-27-AR": 184
+  },
+  "output": "data/processed/chunks.jsonl",
+  "warnings": [
+    "Word counts approximate tokenizer tokens; compare chunk sizes with the selected embedding model.",
+    "Pages flagged by extraction QA remain marked review_required; chunking does not certify text accuracy.",
+    "Exact deduplication merges identical text while retaining all source references."
+  ]
+}
