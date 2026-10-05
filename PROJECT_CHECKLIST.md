@@ -21,9 +21,9 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 | GitHub repo named for capstone | DONE | Public repository `assemalqudami-maker/football-laws-rag-capstone`. |
 | Ingestion pipeline | IN PROGRESS | Corpus audit and page-preserving chunk builder are implemented; 597 baseline chunks generated locally. Embeddings and vector store are still pending. |
 | Written chunking, embedding, vector DB justifications | IN PROGRESS | Candidate choices and Arabic-specific evaluation plan are in `architecture.md`; final justifications await measured comparisons. |
-| Hybrid retrieval with reranking | IN PROGRESS | Added the API-free BM25 baseline `scripts/retrieve_bm25.py`; no dense retriever, fusion, or reranker yet. A four-question smoke check found the cited page in Top 5 for 2/4, which is exploratory and not the official Recall@5 metric. |
-| 30 golden questions | IN PROGRESS | Thirty draft questions exist in `data/eval/golden_questions_draft.json`. They still need answer/source verification, gold chunk IDs, and evaluation use; a draft is not a gold question. |
-| Recall@5 >= 80% | NOT STARTED | Measure; tune without changing gold labels. |
+| Hybrid retrieval with reranking | IN PROGRESS | API-free BM25 baseline and reproducible evaluator exist; dense retrieval, fusion, and reranker are pending. |
+| 30 golden questions | IN PROGRESS | Thirty draft questions have source-checked expected answers and manually linked supporting chunk IDs. Arabic book claims were checked on rendered pages; protocol answers were checked against official IFAB text. Independent review is pending, so the set remains a draft. |
+| Recall@5 >= 80% | IN PROGRESS | Arabic-only BM25 baseline is 14/30 (46.7%); see `data/eval/bm25_recall_report.json`. Compare multilingual dense/hybrid retrieval on unchanged labels. |
 | Streamlit or Gradio interface | NOT STARTED | Arabic RTL, Amiri font, simple auth, sources visible. |
 | Three real-user tests | NOT STARTED | Conduct and record actual feedback only. |
 | Deployment | NOT STARTED | Deploy and test public URL. |
@@ -39,8 +39,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 - Source PDF: 236 pages, not encrypted, text extractable.
 - Extraction output: `data/extracted/laws_pages.jsonl`, page metadata retained.
 - `scripts/audit_corpus.py` generates `data/eval/corpus_audit.json`; 17/17 law-specific webpages contain FAQ markers and no exact whole-document duplicate was found. Five-token overlap is reported for review, not automatically removed.
-- Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review. Visual comparison and targeted content review are documented in `data/eval/pdf_extraction_review.md` and `data/eval/pdf_manual_review.json`; full-document QA is still incomplete.
-- The baseline chunk builder produces 597 chunks (median 325 whitespace-delimited words, max 360, overlap 55). It excludes PDF front matter pages 1–8, flags 57 chunks requiring source review after four targeted pages were visually checked, and reports PDF page 42 as empty. Generated chunk JSONL is local and ignored by Git; the script and build report are tracked.
-- The BM25 baseline is not a completed hybrid retriever and has no formal Recall@5 result; gold chunk labels are still unset. No RAGAS results, user tests, deployment, or cost figures have been completed.
+- Extraction QA reports 236/236 pages with extractable text and 113 pages originally flagged for visual/short-text review; 14 pages now have targeted visual checks, with 103 flagged pages remaining. Visual comparison and targeted content review are documented in `data/eval/pdf_extraction_review.md` and `data/eval/pdf_manual_review.json`; full-document QA is still incomplete.
+- The baseline chunk builder produces 597 chunks (median 325 whitespace-delimited words, max 360, overlap 55). It excludes PDF front matter pages 1–8, flags 57 chunks requiring source review, and reports PDF page 42 as empty. Generated chunk JSONL is local and ignored by Git; the script and build report are tracked.
+- The BM25 baseline is not a completed hybrid retriever. Its draft-set Recall@5 is 46.7%; no RAGAS results, user tests, deployment, or cost figures have been completed.
 - API provider/key allocation is not yet confirmed. `API_KEY_GUIDE.md` explains secret handling and low-cost testing; do not commit or share the actual key.
-- User confirmed that the supervisor granted an extension; the new deadline/date is not yet recorded.

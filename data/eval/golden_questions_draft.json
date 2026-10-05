@@ -1,5 +1,5 @@
 {
-  "status": "30-question draft set; not gold until source answers and chunk IDs are verified",
+  "status": "30 source-checked draft questions with manually linked supporting chunk IDs; pending independent review",
   "edition": "IFAB Laws of the Game 2026/27 Arabic",
   "questions": [
     {
@@ -12,8 +12,11 @@
         108
       ],
       "law": "القانون 11 — التسلل",
-      "answer_status": "checked_against_rendered_page_107_and_extracted_pages_107_108",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_107_108_and_extracted_pages_107_108",
+      "gold_chunk_ids": [
+        "97f11e2626a9f0dd628c",
+        "0cce29a6859d805b4a0c"
+      ]
     },
     {
       "id": "DRAFT-02",
@@ -24,8 +27,10 @@
         107
       ],
       "law": "القانون 11 — التسلل",
-      "answer_status": "checked_against_rendered_page_107",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_107_and_extracted_pages_107",
+      "gold_chunk_ids": [
+        "97f11e2626a9f0dd628c"
+      ]
     },
     {
       "id": "DRAFT-03",
@@ -36,8 +41,10 @@
         126
       ],
       "law": "القانون 12 — الأخطاء وسوء السلوك",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_126_and_extracted_pages_126",
+      "gold_chunk_ids": [
+        "b853915dd81ead80451d"
+      ]
     },
     {
       "id": "DRAFT-04",
@@ -48,8 +55,10 @@
         135
       ],
       "law": "القانون 15 — رمية التماس",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_135_and_extracted_pages_135",
+      "gold_chunk_ids": [
+        "150a15647df466f7283d"
+      ]
     },
     {
       "id": "DRAFT-05",
@@ -60,8 +69,10 @@
         135
       ],
       "law": "القانون 15 — رمية التماس",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_135_and_extracted_pages_135",
+      "gold_chunk_ids": [
+        "150a15647df466f7283d"
+      ]
     },
     {
       "id": "DRAFT-06",
@@ -72,8 +83,10 @@
         135
       ],
       "law": "القانون 15 — رمية التماس",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_135_and_extracted_pages_135",
+      "gold_chunk_ids": [
+        "150a15647df466f7283d"
+      ]
     },
     {
       "id": "DRAFT-07",
@@ -84,8 +97,10 @@
         135
       ],
       "law": "القانون 15 — رمية التماس",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_135_and_extracted_pages_135",
+      "gold_chunk_ids": [
+        "150a15647df466f7283d"
+      ]
     },
     {
       "id": "DRAFT-08",
@@ -96,8 +111,10 @@
         139
       ],
       "law": "القانون 16 — ركلة المرمى",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_139_and_extracted_pages_139",
+      "gold_chunk_ids": [
+        "5b91b45e8bff48478d91"
+      ]
     },
     {
       "id": "DRAFT-09",
@@ -108,8 +125,10 @@
         139
       ],
       "law": "القانون 16 — ركلة المرمى",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_139_and_extracted_pages_139",
+      "gold_chunk_ids": [
+        "5b91b45e8bff48478d91"
+      ]
     },
     {
       "id": "DRAFT-10",
@@ -120,8 +139,10 @@
         101
       ],
       "law": "القانون 10 — تحديد نتيجة المباراة",
-      "answer_status": "checked_against_rendered_page_101_and_extracted_page_101",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_101_and_extracted_pages_101",
+      "gold_chunk_ids": [
+        "34e81e9eca6d5494c43f"
+      ]
     },
     {
       "id": "DRAFT-11",
@@ -132,8 +153,10 @@
         99
       ],
       "law": "القانون 9 — الكرة داخل وخارج اللعب",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_99_and_extracted_pages_99",
+      "gold_chunk_ids": [
+        "f4a184ff2dfa6c05bc96"
+      ]
     },
     {
       "id": "DRAFT-12",
@@ -145,8 +168,10 @@
         96
       ],
       "law": "القانون 8 — بداية واستئناف اللعب",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_96_and_extracted_pages_96",
+      "gold_chunk_ids": [
+        "878c0740d0eae7057f0e"
+      ]
     },
     {
       "id": "DRAFT-13",
@@ -157,18 +182,24 @@
         96
       ],
       "law": "القانون 8 — بداية واستئناف اللعب",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_96_and_extracted_pages_96",
+      "gold_chunk_ids": [
+        "878c0740d0eae7057f0e"
+      ]
     },
     {
       "id": "DRAFT-14",
       "question": "هل يُعاقب اللاعب لمجرد استلامه الكرة مباشرة من ركلة مرمى وهو في موقف تسلل؟",
       "expected_answer": "لا. لا توجد مخالفة تسلل عندما يتلقى اللاعب الكرة مباشرة من ركلة مرمى.",
-      "gold_source_id": "IFAB-LAW-11-2026-27",
-      "gold_pdf_pages": [],
+      "gold_source_id": "IFAB-LOTG-2026-27-AR",
+      "gold_pdf_pages": [
+        109
+      ],
       "law": "القانون 11 — التسلل",
-      "answer_status": "draft_from_official_law_page_verify_exact_section",
-      "gold_chunk_ids": [],
+      "answer_status": "checked_against_rendered_pages_109_and_extracted_pages_109",
+      "gold_chunk_ids": [
+        "c293aed84c8c80fe8af9"
+      ],
       "gold_section": "Offside offence — exceptions"
     },
     {
@@ -180,8 +211,10 @@
         101
       ],
       "law": "القانون 10 — تحديد نتيجة المباراة",
-      "answer_status": "checked_against_rendered_page_101_and_extracted_page_101",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_101_and_extracted_pages_101",
+      "gold_chunk_ids": [
+        "34e81e9eca6d5494c43f"
+      ]
     },
     {
       "id": "DRAFT-16",
@@ -192,8 +225,10 @@
         130
       ],
       "law": "القانون 14 — ركلة الجزاء",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_130_and_extracted_pages_130",
+      "gold_chunk_ids": [
+        "b6c76c1ad63879ec6d49"
+      ]
     },
     {
       "id": "DRAFT-17",
@@ -204,8 +239,10 @@
         139
       ],
       "law": "القانون 16 — ركلة المرمى",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_139_and_extracted_pages_139",
+      "gold_chunk_ids": [
+        "5b91b45e8bff48478d91"
+      ]
     },
     {
       "id": "DRAFT-18",
@@ -216,8 +253,10 @@
         91
       ],
       "law": "القانون 7 — مدة المباراة",
-      "answer_status": "checked_against_rendered_page_91_and_extracted_page_91",
-      "gold_chunk_ids": [],
+      "answer_status": "checked_against_rendered_pages_91_and_extracted_pages_91",
+      "gold_chunk_ids": [
+        "6c3299de4d7e1b1bf0aa"
+      ],
       "gold_section": "مدة المباراة — استراحة ما بين الشوطين"
     },
     {
@@ -229,8 +268,10 @@
         96
       ],
       "law": "القانون 8 — بداية واستئناف اللعب",
-      "answer_status": "draft_from_extract_verify_page_visual_before_gold",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_rendered_pages_96_and_extracted_pages_96",
+      "gold_chunk_ids": [
+        "878c0740d0eae7057f0e"
+      ]
     },
     {
       "id": "DRAFT-20",
@@ -243,7 +284,9 @@
       ],
       "law": "القانون 3 — اللاعبون",
       "answer_status": "checked_against_rendered_pages_59_60_and_extracted_pages_59_60",
-      "gold_chunk_ids": []
+      "gold_chunk_ids": [
+        "c0dcfdc85e7409b9251c"
+      ]
     },
     {
       "id": "DRAFT-21",
@@ -253,8 +296,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Procedure — player being substituted",
       "law": "بروتوكول التبديل المحدود زمنيًا",
-      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "9584a6907393b653968f"
+      ]
     },
     {
       "id": "DRAFT-22",
@@ -264,8 +309,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Procedure — late exit",
       "law": "بروتوكول التبديل المحدود زمنيًا",
-      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "9584a6907393b653968f"
+      ]
     },
     {
       "id": "DRAFT-23",
@@ -275,8 +322,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Requirement to leave the field of play for one minute",
       "law": "بروتوكول العلاج والتقييم خارج ميدان اللعب",
-      "answer_status": "draft_from_official_ifab_protocol_verify_exceptions",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "104013c7df32a0014a34"
+      ]
     },
     {
       "id": "DRAFT-24",
@@ -286,8 +335,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Five-second countdown — throw-in",
       "law": "بروتوكول العد التنازلي لرمية التماس وركلة المرمى",
-      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "09a5f0f2ac3fcf961ff2"
+      ]
     },
     {
       "id": "DRAFT-25",
@@ -297,8 +348,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Five-second countdown — goal kick",
       "law": "بروتوكول العد التنازلي لرمية التماس وركلة المرمى",
-      "answer_status": "draft_from_official_ifab_protocol_verify_source_section",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "09a5f0f2ac3fcf961ff2"
+      ]
     },
     {
       "id": "DRAFT-26",
@@ -308,8 +361,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Reviewable decisions/incidents",
       "law": "بروتوكول حكم الفيديو المساعد",
-      "answer_status": "draft_from_official_ifab_protocol_verify_all_categories",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "45f192499d08af2c48d0"
+      ]
     },
     {
       "id": "DRAFT-27",
@@ -319,8 +374,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Principles",
       "law": "بروتوكول حكم الفيديو المساعد",
-      "answer_status": "draft_from_official_ifab_protocol_verify_exact_wording",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "4acd3f3200fdfca1aaaa"
+      ]
     },
     {
       "id": "DRAFT-28",
@@ -330,8 +387,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Introduction — implementation date",
       "law": "إرشادات «قائد الفريق فقط»",
-      "answer_status": "draft_from_official_ifab_guideline_verify_date_and_scope",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "8fda7358d3f6ef3d37be"
+      ]
     },
     {
       "id": "DRAFT-29",
@@ -341,8 +400,10 @@
       "gold_pdf_pages": [],
       "gold_section": "Principles",
       "law": "بروتوكول التبديلات الإضافية الدائمة المتعلقة بارتجاج الدماغ",
-      "answer_status": "draft_from_official_ifab_protocol_verify_limits",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "5445025efef4cc2588eb"
+      ]
     },
     {
       "id": "DRAFT-30",
@@ -352,8 +413,11 @@
       "gold_pdf_pages": [],
       "gold_section": "Procedure — opposing team option",
       "law": "بروتوكول التبديلات الإضافية الدائمة المتعلقة بارتجاج الدماغ",
-      "answer_status": "draft_from_official_ifab_protocol_verify_procedure",
-      "gold_chunk_ids": []
+      "answer_status": "checked_against_official_ifab_source_text_and_linked_chunk",
+      "gold_chunk_ids": [
+        "5445025efef4cc2588eb"
+      ]
     }
-  ]
+  ],
+  "gold_labeling_note": "Chunk IDs point to the smallest manually selected chunk(s) that support the expected answer. Arabic Law of the Game claims were checked against cited rendered PDF pages and extracted text; supplementary protocol claims were checked against the official IFAB source text. The set remains a draft pending independent review."
 }

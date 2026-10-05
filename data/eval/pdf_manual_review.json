@@ -1,8 +1,14 @@
 {
   "source_id": "IFAB-LOTG-2026-27-AR",
   "review_method": "Rendered the original Arabic PDF pages and compared the wording with page-level PyMuPDF extraction.",
-  "scope_note": "A review status confirms readability of the targeted rule content recorded here. It is not a certification of every character or every unrelated passage on the page.",
+  "scope_note": "A review status confirms readability of the targeted rule content recorded here. It is not a certification of every character or every unrelated passage on a page.",
   "reviews": [
+    {
+      "pdf_page": 6,
+      "status": "excluded_front_matter",
+      "content": "Table of contents.",
+      "finding": "Navigational front matter; excluded from retrieval evidence by the chunk builder."
+    },
     {
       "pdf_page": 59,
       "status": "reviewed_for_targeted_content",
@@ -22,16 +28,70 @@
       "finding": "The substantive Arabic clauses used by DRAFT-18 are visually readable."
     },
     {
+      "pdf_page": 95,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 8: kick-off procedure. Confirmed players’ positions, ball at centre mark, and opposing players at least 9.15 m away.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 96,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 8: ball in play after the kick moves clearly; a goal may be scored directly from kick-off. Dropped-ball distance is stated as 4 m; the printed yard conversion appears inconsistent, so the answer uses the metric value only.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 99,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 9: ball out of play when the whole ball crosses a boundary line, play is stopped, or the ball touches a match official in specified cases.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
       "pdf_page": 101,
       "status": "reviewed_for_targeted_content",
       "content": "Law 10: a goal is scored when the whole ball crosses the goal line between the posts and under the crossbar, provided the scoring team committed no offence or infringement; a goalkeeper throwing the ball directly into the opponents' goal results in a goal kick.",
       "finding": "The substantive Arabic clauses used by DRAFT-10 and DRAFT-15 are visually readable. A non-substantive extraction control marker does not affect these clauses."
     },
     {
-      "pdf_page": 6,
-      "status": "excluded_front_matter",
-      "content": "Table of contents.",
-      "finding": "Navigational front matter; excluded from retrieval evidence by the chunk builder."
+      "pdf_page": 107,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 11: merely being in an offside position is not an offence; position criteria.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 108,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 11: offside offence requires involvement in active play under the listed conditions.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 109,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 11: no offside offence when the player receives the ball directly from a goal kick, throw-in, or corner kick.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 126,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 12: direct-free-kick offences committed by a player inside their own penalty area result in a penalty kick, subject to the law’s specified conditions.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 130,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 14: the kicker may not play the ball a second time until it has touched another player.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 135,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 15: throw-in method, ball in play when entering the field, minimum 2 m opponent distance, and no goal directly from a throw-in.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
+    },
+    {
+      "pdf_page": 139,
+      "status": "reviewed_for_targeted_content",
+      "content": "Law 16: when a goal kick is awarded, where it is taken, when ball is in play, and direct-goal outcomes.",
+      "finding": "Targeted wording is visually readable on the rendered original page and agrees with the page-level extraction. This review covers only the stated content."
     },
     {
       "pdf_page": 224,
