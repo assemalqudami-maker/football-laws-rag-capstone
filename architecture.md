@@ -6,7 +6,7 @@ This is a proposed architecture, not an implemented or measured system yet. Fina
 
 ## Current corpus and language constraints
 
-The first source is the official Arabic IFAB Laws of the Game 2026/27 PDF (236 pages). The corpus is being expanded with IFAB's 17 current law pages and distinct official guidelines, protocols, and law-change/circular materials. Web pages are separate identifiable IFAB publications and often include practical FAQs; the Arabic PDF provides Arabic law text and printed-page citations. Use source IDs to distinguish documents and deduplicate identical passages during retrieval. Do not cite an English passage as an Arabic quotation; if the retrieved authoritative evidence is English, answer in Arabic and identify the original English source.
+The collected manifest has 33 extracted records (29 HTML, 4 PDF), representing 32 document identities after merging the Arabic and English 2026/27 law-changes files as one publication. This includes the Arabic IFAB Laws of the Game book, 17 separately published law-topic pages, and supplementary guidelines, protocols, and circular material. All 17 law-topic pages have FAQ markers in their extracted text. The document-count rule and evidence are recorded in `data/eval/corpus_audit.md`. The Arabic book has 236/236 text-extractable pages, but 113 pages are flagged for visual review. Use source IDs to distinguish references and remove exact duplicate chunks only after preserving citations. Do not cite English text as an Arabic quotation; answer in Arabic and identify the source language.
 
 ## Proposed ingestion flow
 

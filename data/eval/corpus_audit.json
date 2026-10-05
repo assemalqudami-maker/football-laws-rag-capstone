@@ -1,0 +1,565 @@
+{
+  "audit_date": "2026-10-05",
+  "method": {
+    "document_identity": "One separately identified official IFAB topical web page or standalone publication counts once. Internal PDF pages/sections do not count separately. Arabic and English copies of the same 2026/27 law-changes publication count as one document.",
+    "exact_duplicate_check": "NFKC normalization, case-folding, and whitespace collapse, then SHA-256 of each whole extracted document.",
+    "overlap_check": "Five-token shingle Jaccard for same-language document pairs; this is a review signal, not an automatic deletion rule."
+  },
+  "source_entries": 33,
+  "extracted_source_entries": 33,
+  "missing_extractions": [],
+  "source_status_counts": {
+    "downloaded_and_extracted": 32,
+    "downloaded_and_text_extractable": 1
+  },
+  "format_counts": {
+    "HTML": 29,
+    "PDF": 4
+  },
+  "source_document_count_after_translation_merge": 32,
+  "document_identity_groups": [
+    {
+      "document_id": "IFAB-LAW-01-2026-27",
+      "title": "Law 1 — The Field of Play"
+    },
+    {
+      "document_id": "IFAB-LAW-02-2026-27",
+      "title": "Law 2 — The Ball"
+    },
+    {
+      "document_id": "IFAB-LAW-03-2026-27",
+      "title": "Law 3 — The Players"
+    },
+    {
+      "document_id": "IFAB-LAW-04-2026-27",
+      "title": "Law 4 — The Players’ Equipment"
+    },
+    {
+      "document_id": "IFAB-LAW-05-2026-27",
+      "title": "Law 5 — The Referee"
+    },
+    {
+      "document_id": "IFAB-LAW-06-2026-27",
+      "title": "Law 6 — The Other Match Officials"
+    },
+    {
+      "document_id": "IFAB-LAW-07-2026-27",
+      "title": "Law 7 — The Duration of the Match"
+    },
+    {
+      "document_id": "IFAB-LAW-08-2026-27",
+      "title": "Law 8 — Start and Restart of Play"
+    },
+    {
+      "document_id": "IFAB-LAW-09-2026-27",
+      "title": "Law 9 — The Ball in and out of Play"
+    },
+    {
+      "document_id": "IFAB-LAW-10-2026-27",
+      "title": "Law 10 — Determining the Outcome of a Match"
+    },
+    {
+      "document_id": "IFAB-LAW-11-2026-27",
+      "title": "Law 11 — Offside"
+    },
+    {
+      "document_id": "IFAB-LAW-12-2026-27",
+      "title": "Law 12 — Fouls and Misconduct"
+    },
+    {
+      "document_id": "IFAB-LAW-13-2026-27",
+      "title": "Law 13 — Free Kicks"
+    },
+    {
+      "document_id": "IFAB-LAW-14-2026-27",
+      "title": "Law 14 — The Penalty Kick"
+    },
+    {
+      "document_id": "IFAB-LAW-15-2026-27",
+      "title": "Law 15 — The Throw-in"
+    },
+    {
+      "document_id": "IFAB-LAW-16-2026-27",
+      "title": "Law 16 — The Goal Kick"
+    },
+    {
+      "document_id": "IFAB-LAW-17-2026-27",
+      "title": "Law 17 — The Corner Kick"
+    },
+    {
+      "document_id": "IFAB-VAR-2026-27",
+      "title": "Video Assistant Referee (VAR) protocol"
+    },
+    {
+      "document_id": "IFAB-TIME-SUB-2026-27",
+      "title": "Time-limited substitution protocol"
+    },
+    {
+      "document_id": "IFAB-OFFFIELD-TREATMENT-2026-27",
+      "title": "Off-field treatment and assessment protocol"
+    },
+    {
+      "document_id": "IFAB-THROW-GOALKICK-2026-27",
+      "title": "Throw-in and goal-kick countdown protocol"
+    },
+    {
+      "document_id": "IFAB-CAPTAIN-GUIDELINES",
+      "title": "Only the captain guidelines"
+    },
+    {
+      "document_id": "IFAB-TEMP-DISMISSALS",
+      "title": "Guidelines for Temporary Dismissals"
+    },
+    {
+      "document_id": "IFAB-RETURN-SUBS",
+      "title": "Guidelines for Return Substitutes"
+    },
+    {
+      "document_id": "IFAB-CONCUSSION-SUBS",
+      "title": "Additional permanent concussion substitutions protocol"
+    },
+    {
+      "document_id": "IFAB-GUIDE-INTRO",
+      "title": "Guidelines for Match Officials — Introduction"
+    },
+    {
+      "document_id": "IFAB-GUIDE-POSITIONING",
+      "title": "Guidelines — Positioning, movement and teamwork"
+    },
+    {
+      "document_id": "IFAB-GUIDE-COMMS",
+      "title": "Guidelines — Body language, communication and whistle"
+    },
+    {
+      "document_id": "IFAB-GUIDE-ADVICE",
+      "title": "Guidelines — Other advice"
+    },
+    {
+      "document_id": "IFAB-LAW-CHANGES-2026-27",
+      "title": "Changes to the Laws of the Game 2026/27"
+    },
+    {
+      "document_id": "IFAB-CIRCULAR-32-2026",
+      "title": "Circular 32 (2026)"
+    },
+    {
+      "document_id": "IFAB-LOTG-2026-27-AR",
+      "title": "Laws of the Game 2026/27 (Arabic)"
+    }
+  ],
+  "total_extracted_characters": 857473,
+  "empty_extracted_documents": [],
+  "exact_full_document_duplicate_groups": [],
+  "top_same_language_fivegram_overlaps": [
+    {
+      "source_a": "IFAB-LAW-CHANGES-2026-27-AR",
+      "source_b": "IFAB-LOTG-2026-27-AR",
+      "fivegram_jaccard": 0.1313,
+      "shared_fivegrams": 4404
+    },
+    {
+      "source_a": "IFAB-LAW-08-2026-27",
+      "source_b": "IFAB-LAW-09-2026-27",
+      "fivegram_jaccard": 0.1207,
+      "shared_fivegrams": 545
+    },
+    {
+      "source_a": "IFAB-LAW-12-2026-27",
+      "source_b": "IFAB-LAW-14-2026-27",
+      "fivegram_jaccard": 0.1152,
+      "shared_fivegrams": 2884
+    },
+    {
+      "source_a": "IFAB-LAW-05-2026-27",
+      "source_b": "IFAB-LAW-12-2026-27",
+      "fivegram_jaccard": 0.1079,
+      "shared_fivegrams": 2928
+    },
+    {
+      "source_a": "IFAB-LAW-06-2026-27",
+      "source_b": "IFAB-VAR-2026-27",
+      "fivegram_jaccard": 0.0948,
+      "shared_fivegrams": 393
+    },
+    {
+      "source_a": "IFAB-LAW-05-2026-27",
+      "source_b": "IFAB-VAR-2026-27",
+      "fivegram_jaccard": 0.0918,
+      "shared_fivegrams": 909
+    },
+    {
+      "source_a": "IFAB-LAW-16-2026-27",
+      "source_b": "IFAB-LAW-17-2026-27",
+      "fivegram_jaccard": 0.0822,
+      "shared_fivegrams": 219
+    },
+    {
+      "source_a": "IFAB-TIME-SUB-2026-27",
+      "source_b": "IFAB-THROW-GOALKICK-2026-27",
+      "fivegram_jaccard": 0.0761,
+      "shared_fivegrams": 55
+    },
+    {
+      "source_a": "IFAB-LAW-13-2026-27",
+      "source_b": "IFAB-LAW-16-2026-27",
+      "fivegram_jaccard": 0.0682,
+      "shared_fivegrams": 317
+    },
+    {
+      "source_a": "IFAB-LAW-15-2026-27",
+      "source_b": "IFAB-LAW-16-2026-27",
+      "fivegram_jaccard": 0.0669,
+      "shared_fivegrams": 251
+    }
+  ],
+  "law_webpages_with_faq_marker": {
+    "count": 17,
+    "total": 17
+  },
+  "arabic_lawbook_extraction": {
+    "page_count": 236,
+    "extractable_pages": 236,
+    "total_characters": 215895,
+    "median_characters_per_page": 1033.0,
+    "pages_flagged_for_visual_review": 113,
+    "visual_review_complete": false
+  },
+  "source_documents": [
+    {
+      "source_id": "IFAB-LAW-01-2026-27",
+      "title": "Law 1 — The Field of Play",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-01-2026-27.txt",
+      "character_count": 12773,
+      "word_count": 2277,
+      "sha256_normalized_text": "f666b9c9fdbe2430c872d86315a6806a1de0274c149e26a7cc2b844b48071305"
+    },
+    {
+      "source_id": "IFAB-LAW-02-2026-27",
+      "title": "Law 2 — The Ball",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-02-2026-27.txt",
+      "character_count": 2914,
+      "word_count": 534,
+      "sha256_normalized_text": "61cf39f15c1542afe914dde333b8eca04873e91099652596667ce19b5b960009"
+    },
+    {
+      "source_id": "IFAB-LAW-03-2026-27",
+      "title": "Law 3 — The Players",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-03-2026-27.txt",
+      "character_count": 34904,
+      "word_count": 6144,
+      "sha256_normalized_text": "e252c702c9b7ab3a7416b25930f45e357f31b6c088d2be37f569aa3738c45e71"
+    },
+    {
+      "source_id": "IFAB-LAW-04-2026-27",
+      "title": "Law 4 — The Players’ Equipment",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-04-2026-27.txt",
+      "character_count": 13256,
+      "word_count": 2210,
+      "sha256_normalized_text": "515949d884e690a0a9b0d7188afac319ac3d9fc60b49c008254a32ed67fe0017"
+    },
+    {
+      "source_id": "IFAB-LAW-05-2026-27",
+      "title": "Law 5 — The Referee",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-05-2026-27.txt",
+      "character_count": 50038,
+      "word_count": 8817,
+      "sha256_normalized_text": "2feb3215ca891fb0bbb836cf88c08a9f6194338a48361375ffdade8d6d90c7ce"
+    },
+    {
+      "source_id": "IFAB-LAW-06-2026-27",
+      "title": "Law 6 — The Other Match Officials",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-06-2026-27.txt",
+      "character_count": 8818,
+      "word_count": 1508,
+      "sha256_normalized_text": "314c689cf226814ed4c15dd10589011c5410cb31c4a2fa0799e3e41e810f4e48"
+    },
+    {
+      "source_id": "IFAB-LAW-07-2026-27",
+      "title": "Law 7 — The Duration of the Match",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-07-2026-27.txt",
+      "character_count": 4365,
+      "word_count": 778,
+      "sha256_normalized_text": "31ee4ab5c51e4fde9f77a5025f9440f3aba2c7f0200ef67a6d1c119336a29d48"
+    },
+    {
+      "source_id": "IFAB-LAW-08-2026-27",
+      "title": "Law 8 — Start and Restart of Play",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-08-2026-27.txt",
+      "character_count": 25466,
+      "word_count": 4749,
+      "sha256_normalized_text": "96bca17bfeadbfbf623f33bf2b5c82e9fc799c5ff74f93565926979af8ef2fa4"
+    },
+    {
+      "source_id": "IFAB-LAW-09-2026-27",
+      "title": "Law 9 — The Ball in and out of Play",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-09-2026-27.txt",
+      "character_count": 11114,
+      "word_count": 2073,
+      "sha256_normalized_text": "3d09172e4dcf8d056257a122c97dd5fdba92c19c06ae7f0df81314ec267ae0e8"
+    },
+    {
+      "source_id": "IFAB-LAW-10-2026-27",
+      "title": "Law 10 — Determining the Outcome of a Match",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-10-2026-27.txt",
+      "character_count": 18089,
+      "word_count": 3199,
+      "sha256_normalized_text": "049fe7bc9881cbe00b7e9f6d52ef8a4dac13c8240816a1cdca389b74590f7062"
+    },
+    {
+      "source_id": "IFAB-LAW-11-2026-27",
+      "title": "Law 11 — Offside",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-11-2026-27.txt",
+      "character_count": 42784,
+      "word_count": 7734,
+      "sha256_normalized_text": "ab5122378a08db4233ddb69c4f9a75e0bc1d7c4db849f0dec0ceb38077433d0f"
+    },
+    {
+      "source_id": "IFAB-LAW-12-2026-27",
+      "title": "Law 12 — Fouls and Misconduct",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-12-2026-27.txt",
+      "character_count": 175262,
+      "word_count": 30636,
+      "sha256_normalized_text": "2270b3a58617c57d6f0c0b332051a7fd9c50269d4114329103f4fe9073301f08"
+    },
+    {
+      "source_id": "IFAB-LAW-13-2026-27",
+      "title": "Law 13 — Free Kicks",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-13-2026-27.txt",
+      "character_count": 21187,
+      "word_count": 3853,
+      "sha256_normalized_text": "35a8494b7fe63c8b11318361bcd4cf3a775c38ade69a92356209bd9027263279"
+    },
+    {
+      "source_id": "IFAB-LAW-14-2026-27",
+      "title": "Law 14 — The Penalty Kick",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-14-2026-27.txt",
+      "character_count": 40901,
+      "word_count": 7215,
+      "sha256_normalized_text": "883b8f551fe34348c9852c601d2087332570a6f41baef900fb85a0fc14a3a367"
+    },
+    {
+      "source_id": "IFAB-LAW-15-2026-27",
+      "title": "Law 15 — The Throw-in",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-15-2026-27.txt",
+      "character_count": 15181,
+      "word_count": 2831,
+      "sha256_normalized_text": "b5481d0714cad8701a76e71939d3ea42622bce6925c495f2f9d8cb327f3985bb"
+    },
+    {
+      "source_id": "IFAB-LAW-16-2026-27",
+      "title": "Law 16 — The Goal Kick",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-16-2026-27.txt",
+      "character_count": 11238,
+      "word_count": 2060,
+      "sha256_normalized_text": "e865920b82a190fc63aa96738dd5f7ff7d3786fec3aff3a577f36ecf83b56451"
+    },
+    {
+      "source_id": "IFAB-LAW-17-2026-27",
+      "title": "Law 17 — The Corner Kick",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-17-2026-27.txt",
+      "character_count": 6726,
+      "word_count": 1227,
+      "sha256_normalized_text": "1c22f56f9b648b00b4c196f96d651da67dd3d37b79a5fdc600193f5bda6beba4"
+    },
+    {
+      "source_id": "IFAB-VAR-2026-27",
+      "title": "Video Assistant Referee (VAR) protocol",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-VAR-2026-27.txt",
+      "character_count": 20491,
+      "word_count": 3485,
+      "sha256_normalized_text": "e6948da747c1f06d6443da9fb68f230f02d6ceb7e1e480a991233baf93c2963d"
+    },
+    {
+      "source_id": "IFAB-TIME-SUB-2026-27",
+      "title": "Time-limited substitution protocol",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-TIME-SUB-2026-27.txt",
+      "character_count": 2624,
+      "word_count": 446,
+      "sha256_normalized_text": "9c0fabc8d6ec0073113cbb675ac8040f40332a2f38c978ec75ff460978cbbeef"
+    },
+    {
+      "source_id": "IFAB-OFFFIELD-TREATMENT-2026-27",
+      "title": "Off-field treatment and assessment protocol",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-OFFFIELD-TREATMENT-2026-27.txt",
+      "character_count": 3244,
+      "word_count": 585,
+      "sha256_normalized_text": "97e8f442b8036607c078883c4cfe9137eab6d54817d3d65ed7306d094d0c68f2"
+    },
+    {
+      "source_id": "IFAB-THROW-GOALKICK-2026-27",
+      "title": "Throw-in and goal-kick countdown protocol",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-THROW-GOALKICK-2026-27.txt",
+      "character_count": 2005,
+      "word_count": 366,
+      "sha256_normalized_text": "087955a2ce156b3b43c4954cb4f478692b46ef5ef9827806aa78568877a93365"
+    },
+    {
+      "source_id": "IFAB-CAPTAIN-GUIDELINES",
+      "title": "Only the captain guidelines",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-CAPTAIN-GUIDELINES.txt",
+      "character_count": 4612,
+      "word_count": 767,
+      "sha256_normalized_text": "91c2a0e066957e139e9a5f25d0f58681587777f905d9db1fc769570fc45bb507"
+    },
+    {
+      "source_id": "IFAB-TEMP-DISMISSALS",
+      "title": "Guidelines for Temporary Dismissals",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-TEMP-DISMISSALS.txt",
+      "character_count": 6003,
+      "word_count": 963,
+      "sha256_normalized_text": "3784fd817a8201ba82bc1ca6bf3ecd471be77f3b8d64a0f9eef8e79a0fcab713"
+    },
+    {
+      "source_id": "IFAB-RETURN-SUBS",
+      "title": "Guidelines for Return Substitutes",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-RETURN-SUBS.txt",
+      "character_count": 1223,
+      "word_count": 198,
+      "sha256_normalized_text": "5e01ec32c8865861501982ce79b635ccfc9cb03a0f336e47b5353f8ac313346e"
+    },
+    {
+      "source_id": "IFAB-CONCUSSION-SUBS",
+      "title": "Additional permanent concussion substitutions protocol",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-CONCUSSION-SUBS.txt",
+      "character_count": 4588,
+      "word_count": 714,
+      "sha256_normalized_text": "5c5e386f949864c5c132581cc9cd548f81086f968b43eff4dd72d849b681e159"
+    },
+    {
+      "source_id": "IFAB-GUIDE-INTRO",
+      "title": "Guidelines for Match Officials — Introduction",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-GUIDE-INTRO.txt",
+      "character_count": 1686,
+      "word_count": 286,
+      "sha256_normalized_text": "4918ee4dd5d45a596b0f6ea40ce00ba6a014eb9d560ebb1a4a6937c2c1264a40"
+    },
+    {
+      "source_id": "IFAB-GUIDE-POSITIONING",
+      "title": "Guidelines — Positioning, movement and teamwork",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-GUIDE-POSITIONING.txt",
+      "character_count": 6922,
+      "word_count": 1254,
+      "sha256_normalized_text": "2eee870909e739047c02f2b696eb024b58a43a9051ba46a2b1deecc5ad97fd9b"
+    },
+    {
+      "source_id": "IFAB-GUIDE-COMMS",
+      "title": "Guidelines — Body language, communication and whistle",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-GUIDE-COMMS.txt",
+      "character_count": 9308,
+      "word_count": 1694,
+      "sha256_normalized_text": "3c69d3cb03bbdff28ed86f1b8cf864d12b39fdd5760cf016c2b9a463fed145f6"
+    },
+    {
+      "source_id": "IFAB-GUIDE-ADVICE",
+      "title": "Guidelines — Other advice",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-GUIDE-ADVICE.txt",
+      "character_count": 7427,
+      "word_count": 1315,
+      "sha256_normalized_text": "000f866215a5373455623b9b681211be9b87626eb22776c941d1fcfc5f810d2c"
+    },
+    {
+      "source_id": "IFAB-LAW-CHANGES-2026-27-AR",
+      "title": "Changes to the Laws of the Game 2026/27 (Arabic)",
+      "language": "Arabic",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-CHANGES-2026-27-AR.jsonl",
+      "character_count": 33742,
+      "word_count": 6106,
+      "sha256_normalized_text": "9409e63dcc0fb0caab42d9bb33bfb1f4fad0a84f0a1390ef71040d9973403133"
+    },
+    {
+      "source_id": "IFAB-LAW-CHANGES-2026-27-EN",
+      "title": "Changes to the Laws of the Game 2026/27",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-LAW-CHANGES-2026-27-EN.jsonl",
+      "character_count": 35061,
+      "word_count": 5775,
+      "sha256_normalized_text": "12b7f6fa88e02febbd04e3822c3e18c6381bab857209540c02b807ec7218bf4e"
+    },
+    {
+      "source_id": "IFAB-CIRCULAR-32-2026",
+      "title": "Circular 32 (2026)",
+      "language": "English",
+      "status": "downloaded_and_extracted",
+      "extracted_path": "data/extracted/supplementary/IFAB-CIRCULAR-32-2026.jsonl",
+      "character_count": 7391,
+      "word_count": 1218,
+      "sha256_normalized_text": "7f416cadff3b41e1d5f02fb0ab61c8a664397fc5c5258d56c2e80f8cb459269a"
+    },
+    {
+      "source_id": "IFAB-LOTG-2026-27-AR",
+      "title": "Laws of the Game 2026/27 (Arabic)",
+      "language": "Arabic",
+      "status": "downloaded_and_text_extractable",
+      "extracted_path": "data/extracted/laws_pages.jsonl",
+      "character_count": 216130,
+      "word_count": 37685,
+      "sha256_normalized_text": "94e7e30cce5606ec419cf5afb2a0a774f144ccf05c8e77a60d81c14020cedd75"
+    }
+  ],
+  "limitations": [
+    "Text extractability does not prove that every extracted clause is accurate.",
+    "The Arabic lawbook pages flagged by extraction QA still need visual checking.",
+    "High fivegram overlap is reported for review; clauses are not deleted automatically.",
+    "The Arabic/English law-changes pair is one document identity with two language representations."
+  ]
+}

@@ -6,7 +6,7 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 
 | Requirement | Status | Evidence / next action |
 |---|---|---|
-| Public GitHub repository link | NOT STARTED | Create a public repository and push the reviewed project; user requested public visibility. |
+| Public GitHub repository link | DONE | [Public repository](https://github.com/assemalqudami-maker/football-laws-rag-capstone); project files are on `main`. |
 | Live public demo URL | NOT STARTED | Deploy Streamlit or Gradio to an allowed host and verify from a public session. |
 | One-page ADR | NOT STARTED | Write after architecture choices are tested. |
 | RAGAS report on 20 questions | NOT STARTED | Evaluate only after pipeline and 20 verified examples exist. |
@@ -17,8 +17,8 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 | Stage / requirement | Status | Evidence / next action |
 |---|---|---|
 | Choose domain and define scope | DONE | `domain.md` |
-| 20–50 high-quality documents | IN PROGRESS | The manifest lists 33 official IFAB sources (29 HTML, 4 PDF): 32 are marked downloaded_and_extracted and 1 base PDF is marked downloaded_and_text_extractable; the collection report records 0 failures. Deduplicate overlapping content and verify the independent-document count before claiming 20–50 documents. |
-| GitHub repo named for capstone | NOT STARTED | Deferred until later by user. |
+| 20–50 high-quality documents | IN PROGRESS | The manifest has 33 extracted source records (29 HTML, 4 PDF), zero failures, and 32 document identities after merging the Arabic/English law-changes translation pair. The 17 distinct law-topic URLs each contain an FAQ marker. See `data/eval/corpus_audit.md` for the counting rule and overlap results; visual review of flagged Arabic lawbook pages remains incomplete. |
+| GitHub repo named for capstone | DONE | Public repository `assemalqudami-maker/football-laws-rag-capstone`. |
 | Ingestion pipeline | IN PROGRESS | First PDF extraction exists; Arabic layout needs QA. |
 | Written chunking, embedding, vector DB justifications | IN PROGRESS | Candidate choices and Arabic-specific evaluation plan are in `architecture.md`; final justifications await measured comparisons. |
 | Hybrid retrieval with reranking | NOT STARTED | Implement and verify. |
@@ -38,7 +38,8 @@ Status key: `DONE` = implemented and verified; `IN PROGRESS` = work started, not
 - Reference corpus edition: IFAB Laws of the Game 2026/27 Arabic.
 - Source PDF: 236 pages, not encrypted, text extractable.
 - Extraction output: `data/extracted/laws_pages.jsonl`, page metadata retained.
+- `scripts/audit_corpus.py` generates `data/eval/corpus_audit.json`; 17/17 law-specific webpages contain FAQ markers and no exact whole-document duplicate was found. Five-token overlap is reported for review, not automatically removed.
 - Extraction QA reports 236/236 pages with extractable text and 113 pages flagged for visual/short-text review; inspect flagged pages before treating the Arabic PDF extraction as ingestion-ready.
-- No retrieval metrics, RAGAS results, user tests, public repo, deployment, or cost figures have been completed.
+- No retrieval metrics, RAGAS results, user tests, deployment, or cost figures have been completed.
 - API provider/key allocation is not yet confirmed. `API_KEY_GUIDE.md` explains secret handling and low-cost testing; do not commit or share the actual key.
 - User confirmed that the supervisor granted an extension; the new deadline/date is not yet recorded.
